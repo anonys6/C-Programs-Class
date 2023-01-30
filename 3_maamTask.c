@@ -13,8 +13,13 @@ void main ()
 
     // printf("Your age is %d", age);
 
-    int chr = 128;
+    // int chr = 128;
 
-    printf("%d", chr);
+    // printf("%d", chr);
 
+    signed char chr;
+    chr = 128;
+    
+    printf("%d\n", chr);
+    
 }
