@@ -20,6 +20,6 @@ void main ()
     signed char chr;
     chr = 128;
     
-    printf("%d\n", chr);
+    printf("%c\n", chr);
     
 }
