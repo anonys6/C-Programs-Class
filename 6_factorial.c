@@ -2,7 +2,7 @@
 
 void main()
 {
-    int facto (int n)
+    int facto(int n)
     {
         if (n == 1 || n == 0)
         {
@@ -10,13 +10,17 @@ void main()
         }
         else
         {
-            return n * facto(n - 1);
+            return (n * facto(n - 1));
         }
     }
 
-    int num = 5;
-    
-    facto(num);
+    int num = 0;
+    int result = 0;
 
+    printf("Enter the number: \n");
+    scanf("%d", &num);
 
+    result = facto(num);
+
+    printf("%d", result);
 }
