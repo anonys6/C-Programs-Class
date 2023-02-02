@@ -13,6 +13,5 @@ void main()
     scanf("%d %d", &x, &y);
     max = x > y? x : y;
     printf("Greater num is %d", x > y? x : y);
-    clrscr();
-
+    // clrscr(); 
 }
