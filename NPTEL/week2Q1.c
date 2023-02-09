@@ -9,6 +9,7 @@ void main()
     {
         int num = 0;
         scanf("%d", &num);
+
         if (num == -1)
         {
             break;
@@ -19,9 +20,9 @@ void main()
     }
 
     int len = sizeof(lis) / sizeof(lis[0]);
-    printf("%d", sizeof(lis));
 
-    printf("%d", len);
+    // printf("%d", sizeof(lis));
+    // printf("%d", len);
 
     for (int i = 0; i < len; i++)
     {
@@ -53,3 +54,23 @@ void main()
 
 //     return 0;
 // }
+
+#include <stdio.h>
+
+int main()
+{
+    int x, y;
+    scanf("%d", &x);
+    scanf("%d", &y);
+    float a, b;
+    scanf("%f", &a);
+    scanf("%f", &b);
+    int sum = x + y;
+    float sum1 = a + b;
+    int diff = x - y;
+    float diff1 = a - b;
+    printf("%d %d\n", sum, diff);
+    printf("%.1f %.1f", sum1, diff1);
+
+    return 0;
+}
