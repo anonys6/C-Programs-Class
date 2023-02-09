@@ -6,7 +6,7 @@ void main()
     scanf("%d %d", &a, &b);
 
     printf("a = %d, b = %d\n", a, b);
-    
+
     if (a > b)
     {
         printf("a is greater: %d\n", a);
