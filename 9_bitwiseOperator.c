@@ -8,17 +8,15 @@
 //     // printf("56 >> 2: %d\n", 56 >> 2);
 //     // printf("")
 
-
-
 //     return 0;
 // }
 
 #include <stdio.h>
 
-void main ()
+void main()
 {
   int m, n;
-  
+
   scanf("%d%d", &m, &n);
   if (m % n == 0)
   {
