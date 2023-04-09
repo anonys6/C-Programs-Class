@@ -125,30 +125,44 @@
 //     for (int i = 0; i < num_records; i++) {
 
 
+// #include <stdio.h>
+// #include <math.h>
+
+// double calculate_volume(double a, double b, double c, double d) {
+//     double s = (a + b + c + d) / 2.0;
+//     return sqrt((s - a) * (s - b) * (s - c) * (s - d));
+// }
+
+// double calculate_inradius(double a, double b, double c, double d) {
+//     double volume = calculate_volume(a, b, c, d);
+//     double p = a + b + c + d;
+//     return 3.0 * volume / p;
+// }
+
+// int main() {
+//     int t;
+//     scanf("%d", &t);
+//     while (t--) {
+//         double wx, wy, wz, xy, xz, yz;
+//         scanf("%lf%lf%lf%lf%lf%lf", &wx, &wy, &wz, &xy, &xz, &yz);
+//         double a = wz, b = wy, c = wx, d = sqrt(xy*xy + wz*wz + wy*wy - 2*xy*wz - 2*xy*wy + 2*wz*wy);
+//         // calculate inradius and print with 4 digits precision
+//         double inradius = calculate_inradius(a, b, c, d);
+//         printf("%.4lf\n", inradius);
+//     }
+//     return 0;
+// }
+
+
 #include <stdio.h>
-#include <math.h>
 
-double calculate_volume(double a, double b, double c, double d) {
-    double s = (a + b + c + d) / 2.0;
-    return sqrt((s - a) * (s - b) * (s - c) * (s - d));
-}
-
-double calculate_inradius(double a, double b, double c, double d) {
-    double volume = calculate_volume(a, b, c, d);
-    double p = a + b + c + d;
-    return 3.0 * volume / p;
-}
-
-int main() {
-    int t;
-    scanf("%d", &t);
-    while (t--) {
-        double wx, wy, wz, xy, xz, yz;
-        scanf("%lf%lf%lf%lf%lf%lf", &wx, &wy, &wz, &xy, &xz, &yz);
-        double a = wz, b = wy, c = wx, d = sqrt(xy*xy + wz*wz + wy*wy - 2*xy*wz - 2*xy*wy + 2*wz*wy);
-        // calculate inradius and print with 4 digits precision
-        double inradius = calculate_inradius(a, b, c, d);
-        printf("%.4lf\n", inradius);
-    }
+int main()
+{
+    int a[2][3] = {1, 2, 3, 4, 5};
+    int i = 0, j = 0;
+    for (i = 0; i < 2; i++)
+        for (j = 0; j < 3; j++)
+            printf("%d ", a[i][j]);
+    
     return 0;
 }
