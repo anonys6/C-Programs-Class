@@ -25,4 +25,6 @@ int main()
     {
         printf("Hello %s\n", s[i].name);
     }
+
+    return 0;
 }
