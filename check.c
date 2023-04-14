@@ -124,7 +124,6 @@
 
 //     for (int i = 0; i < num_records; i++) {
 
-
 // #include <stdio.h>
 // #include <math.h>
 
@@ -153,16 +152,37 @@
 //     return 0;
 // }
 
+// #include <stdio.h>
+
+// int main()
+// {
+//     int a[2][3] = {1, 2, 3, 4, 5};
+//     int i = 0, j = 0;
+//     for (i = 0; i < 2; i++)
+//         for (j = 0; j < 3; j++)
+//             printf("%d ", a[i][j]);
+
+//     return 0;
+// }
 
 #include <stdio.h>
 
+int add(int a, int b) // 4, 5
+{
+    // printf("%d", a + b);
+
+    return a + b; // 9
+}
+
 int main()
 {
-    int a[2][3] = {1, 2, 3, 4, 5};
-    int i = 0, j = 0;
-    for (i = 0; i < 2; i++)
-        for (j = 0; j < 3; j++)
-            printf("%d ", a[i][j]);
-    
+    int a, b;
+
+    scanf("%d %d", &a, &b);
+
+    // add(a, b);
+
+    printf("%d", add(a, b));
+
     return 0;
 }
