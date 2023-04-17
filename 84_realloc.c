@@ -23,6 +23,9 @@ int main()
         printf("%d ", ptr[i]);
     }
 
+    printf("Eneter the new size of array: ");
+    scanf("%d", &num);
+
     
 
     return 0;
