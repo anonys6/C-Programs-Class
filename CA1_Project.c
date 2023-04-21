@@ -254,28 +254,6 @@ void delete_record()
     rename("temp.dat", "records.dat");
 }
 
-// void display_records()
-// {
-//     FILE *fp;
-//     struct student s;
-//     fp = fopen("records.dat", "rb");
-//     if (fp == NULL)
-//     {
-//         printf("Error: Unable to open file.\n");
-//         return;
-//     }
-
-//     printf("\nAll records:\n");
-//     while (fread(&s, sizeof(struct student), 1, fp) == 1)
-//     {
-//         printf("\nName: %s\n", s.name);
-//         printf("Roll number: %d\n", s.roll);
-//         printf("CA marks: %d\n", s.ca);
-//     }
-
-//     fclose(fp);
-// }
-
 void display_records()
 {
     FILE *fp;
