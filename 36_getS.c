@@ -38,5 +38,4 @@ int main()
     int myStr[10];
     gets(myStr);
     puts(myStr);
-    
 }
