@@ -1,1 +1,1 @@
-console.log(process.platform);
+console.log("This is a JavaScript file")
