@@ -26,5 +26,11 @@ int main() {
     char str6[] = "HELL";
     printf("stricmp(): %d\n", stricmp(str5, str6));
 
+    printf("lenght of str6 is: %d\n", strlen(str6));
+
+    printf("size of str6 is: %d\n", sizeof(str6));
+
+    printf("strrev(str6): %s\n", strrev(str6));
+
     return 0;
 }
