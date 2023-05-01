@@ -5,8 +5,8 @@ int main()
 {
     char str[] = "Hello";
     char str2[] = " World";
-    // char *str3;
-    // strcpy(str, str3);
+    char *str3;
+    strcpy(str, str3);
 
     printf("strrev(str): %s\n", strrev(str));
     printf("strlen(str): %d\n", strlen(str));
