@@ -77,15 +77,16 @@ void create_record()
     printf("\nEnter student name: ");
     scanf(" %[^\n]", s.name);
 
-    int roll;
-    printf("Enter roll number: ");
-    if (scanf("%d", &roll) != 1)
-    {
-        printf("Error: Invalid input. Please enter a valid integer.\n");
-        fclose(fp);
-        return;
-    }
+    int roll =0;
+    // printf("Enter roll number: ");
+    // if (scanf("%d", &roll) != 1)
+    // {
+    //     printf("Error: Invalid input. Please enter a valid integer.\n");
+    //     fclose(fp);
+    //     return;
+    // }
 
+    roll++;
     s.roll = roll;
 
     printf("Enter new CA marks: ");
