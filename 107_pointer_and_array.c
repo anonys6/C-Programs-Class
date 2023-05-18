@@ -13,7 +13,7 @@ int main() {
     int arr[5] = {3, 6, 9, 12, 15};
     int *p = arr;
 
-    printf("arr[0] = %d\n", *(p));
+    printf("arr[0] = %d\n", *(p + 0));
     printf("arr[0] = %d\n", *(arr));
     printf("arr[0] = %d\n", p[0]);
     printf("arr[0] = %d\n", arr[0]);
