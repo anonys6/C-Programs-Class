@@ -1,7 +1,7 @@
 /*
 Storage calsses in C are used to determine the lifetime, visibility, memory location, and initial value of a variable. There are four types of
 storage classes in c
-Automatic
+matic
 External
 Static
 Register

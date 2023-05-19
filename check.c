@@ -1,16 +1,15 @@
-#include <stdio.h>
+// why the output is coming "hi"
 
+#include <stdio.h>
 int main()
 {
-    int x;
-    if (x)
-    {
-        printf("hi");
-    }
-    else
+    float x = 2.300000;
+    if (x == 2.300000)
     {
         printf("hello");
     }
-
-    return 0;
+    else
+    {
+        printf("hi");
+    }
 }

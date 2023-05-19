@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <time.h> 
-#include <stdlib.h> 
-#include <strings.h> 
-#include <windows.h> 
-#include <conio.h> 
+#include <time.h>
+#include <stdlib.h>
+#include <strings.h>
+#include <windows.h>
+#include <conio.h>
 #define V 21
 #define H 75
 #define N 100
@@ -15,7 +15,7 @@
 /*
 	@author: Alfredo Flores
 	@email: alfredojose20001@outlook.es
-	
+
 */
 
 typedef struct

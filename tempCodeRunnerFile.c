@@ -1,1 +1,2 @@
-(str): %s\n", strrev(str));
+
+        for (j = 0; j < 4;
