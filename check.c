@@ -1,8 +1,9 @@
 #include <stdio.h>
-    int main()
-    {
-        int i = 10;
-        void *p = &i;
-        printf("%f\n", *(float*)p);
-        return 0;
-    }
+void main()
+{
+    int k = 4;
+    int *const p = &k;
+    int r = 3;
+    p = &r;
+    printf("%d", p);
+}
