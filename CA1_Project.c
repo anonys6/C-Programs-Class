@@ -77,7 +77,7 @@ void create_record()
     printf("\nEnter student name: ");
     scanf(" %[^\n]", s.name);
 
-    int roll =0;
+    int roll = 0;
     // printf("Enter roll number: ");
     // if (scanf("%d", &roll) != 1)
     // {
