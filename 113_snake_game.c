@@ -35,6 +35,7 @@ typedef struct
 
 } fruit;
 
+
 snake snk[N]; // maximun size
 fruit frt;
 
