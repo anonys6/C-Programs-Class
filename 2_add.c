@@ -14,5 +14,4 @@ void main()
     printf("The sum is: %d", c);
 
     // getch();                // for holding the screen in command line
-    
 }
